@@ -1,0 +1,52 @@
+.holder {
+  width: 80%;
+  height: 500px;
+  border: 1px solid aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px; 
+    font-size: 50px;
+  color: azure;
+  flex-grow: 1;
+}
+
+.item-1 {
+  background-color: tomato;
+  order: -4;
+  flex-basis: calc(100%/2);
+
+}
+
+.item-2 {
+  background-color: blue;
+  flex-grow: 2;
+  /* flex-wrap: wrap; */
+}
+
+.item-3 {
+  background-color: purple;
+  order: -2;
+  flex-grow: 2;
+  /* flex-wrap: wrap; */
+}
+
+.item-4 {
+  background-color: green;
+  flex-grow: 2;
+  /* flex-wrap: wrap; */
+}
+
+.item-5 {
+  background-color: orange;
+  order: -3;
+  flex-grow: 3;
+  flex-basis: calc(100%/2);
+
+}
